@@ -101,9 +101,11 @@
 </plurals>
 <string name="see_the">查看</string>
 <string name="stable_prompt">稳定</string>
-<string name="tentative">ENSDF评价中标注的如强度</string>
+<!-- <string name="tentative">ENSDF评价中标注的如强度</string> -->
+<string name="tentative">ENSDF评价标注为“暂定”</string>
 <string name="ther_n_capt">热中子俘获截面</string>
-<string name="uncertain">不确定度</string>
+<!-- <string name="uncertain">不确定度</string> -->
+<string name="uncertain">不确定</string>
 <string name="uraniumTentative">在1952年热核实验中首次发现的同位素。</string>
 <string name="warn_no_input">至少需要输入一个参数</string>
 <string name="warning">警告</string>
@@ -232,8 +234,7 @@ Uuo
 119
 120"</string>
 
-
-    <string name="help"><![CDATA[\<br><br><img src=\'ib.png\'> <span style="color:#194CAF"><b>使用帮助</b></span>
+<string name="help"><![CDATA[\<br><br><img src=\'ib.png\'> <span style="color:#194CAF"><b>使用帮助</b></span>
 <br><span style="color:#194CAF"><b>输入</b></span>:<br><b>元素</b>：元素符号或 Z (c 或 6)<br><b>核素</b>：12c, c12, 12 c, c 12, 12-c, c-12 <br><b>整个数据库</b>： *
 <br><br><span style="color:#194CAF"><b>更改语言</b></span> 点击<b>菜单 -> 设置。</b>
 <br><br><span style="color:#194CAF"><b>元素</b></span>显示<b>元素周期表。</b>
@@ -251,11 +252,11 @@ Uuo
 <br><br><span style="color:#194CAF"><b>高级检索</b></span>
 <br>点击“高级检索”，填写完成相关信息后，按<b>“开始”</b>进行查找。
 <br><b>当高级检索信息输入栏收起后，所填信息不再起作用。</b>
-<br><br><b>辐射筛选：</b> 选择辐射类型之后，结果列表中将显示所选能量范围内的强度最大的谱线而不是衰变方式。
-<br>结果列表上方的按钮可以在2种显示方式之间切换。匹配的辐射将在核素详细页面标红显示。
+<br><br><b>辐射筛选：</b> 选择辐射类型之后，结果列表中将显示所选能量范围内的强度最大的射线而不是衰变方式。
+<br>结果列表上方的按钮可以在两种显示方式之间切换。匹配的辐射将在核素详细页面标红显示。
 <br><br>输入核素符号后，可以通过勾选框将辐射搜索结果扩展至整个衰变链。
 <br><br><span style="color:#194CAF"><b>结果列表</b></span>
-<br>默认按照z,n排序。可以在<b>“设置”</b>中改变排序方式。在列表中点击任一条目即可链接到相应的详细信息页面。选择辐射类型后，结果列表上方的2个按钮可以在辐射强度+能量和半衰期+衰变方式两只显示方式之间切换。
+<br>默认按照z,n排序。可以在<b>“设置”</b>中改变排序方式。在列表中点击任一条目即可链接到相应的详细信息页面。选择辐射类型后，结果列表上方的两个按钮可以在辐射强度+能量和半衰期+衰变方式两只显示方式之间切换。
 <br><br><span style="color:#194CAF"><b>不确定度</b></span>
 <br>不确定度列在括号里，与括号前数据最后一位有效位对齐：<br> 12.34 (123) 表示 12.34 +- 1.23
 <br><br><span style="color:#194CAF"><b>详细页面</b></span>
